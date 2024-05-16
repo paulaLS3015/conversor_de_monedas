@@ -1,48 +1,44 @@
-# Conversor de Monedas en Java
+# Currency Converter in Java
 
-## Descripción
+## Description
 
-El Conversor de Monedas es un programa en Java que permite a los usuarios convertir valores entre diferentes monedas utilizando tasas de cambio en tiempo real. El programa interactúa con la API de tasas de cambio para obtener datos actualizados y realiza cálculos para convertir los valores ingresados por el usuario a la moneda deseada.
+The Currency Converter is a Java program that allows users to convert values between different currencies using real-time exchange rates. The program interacts with the exchange rate API to obtain up-to-date data and performs calculations to convert the values entered by the user into the desired currency.
 
-## Características
+## Features
 
-1. **Configuración del entorno de desarrollo**: El programa se desarrolla en un entorno de desarrollo Java con JDK versión 11 o superior, la biblioteca Gson 2.10.1 o superior y opcionalmente el IDE IntelliJ IDEA.
+1. **Development Environment Setup**: The program is developed in a Java development environment with JDK version 11 or higher, the Gson library 2.10.1 or higher, and optionally the IntelliJ IDEA IDE.
 
-2. **Interacción con la API de tasas de cambio**: El programa utiliza la clase HttpClient para realizar solicitudes a la API de tasas de cambio y obtener datos esenciales. La clase HttpRequest se utiliza para configurar y personalizar las solicitudes a la API.
+2. **Interaction with the Exchange Rate API**: The program uses the HttpClient class to make requests to the exchange rate API and obtain essential data. The HttpRequest class is used to configure and customize requests to the API.
 
-3. **Gestión de respuestas de la API**: La interfaz HttpResponse se utiliza para gestionar las respuestas recibidas de la API y extraer información significativa de las respuestas.
+3. **Handling API Responses**: The HttpResponse interface is used to manage responses received from the API and extract meaningful information from the responses.
 
-4. **Análisis de la respuesta JSON**: La biblioteca Gson se utiliza para analizar la respuesta JSON y mapear eficientemente los datos JSON a objetos Java.
+4. **JSON Response Parsing**: The Gson library is used to parse the JSON response and efficiently map JSON data to Java objects.
 
-5. **Filtrado de monedas**: El programa permite filtrar las monedas utilizando la biblioteca Gson en Java. Los usuarios pueden elegir al menos tres "Currency Code" para incluir en la aplicación.
+5. **Currency Filtering**: The program allows filtering of currencies using the Gson library in Java. Users can choose at least three "Currency Code" to include in the application.
 
-6. **Conversión de monedas**: El programa realiza las conversiones entre las monedas utilizando las tasas de cambio obtenidas para calcular los valores convertidos entre las monedas deseadas.
+6. **Currency Conversion**: The program performs conversions between currencies using the obtained exchange rates to calculate the converted values between the desired currencies.
 
-7. **Interfaz de usuario**: El programa implementa una interfaz textual a través de la consola que presenta opciones de conversión de monedas. Los usuarios pueden seleccionar opciones numéricas y proporcionar datos para la conversión.
+7. **User Interface**: The program implements a textual interface through the console that presents currency conversion options. Users can select numerical options and provide data for conversion.
 
-## Uso
+## Usage
 
-Para utilizar el Conversor de Monedas, siga estos pasos:
+To use the Currency Converter, follow these steps:
 
-1. Asegúrese de tener instalado Java JDK versión 11 o superior y la biblioteca Gson 2.10.1 o superior.
-2. Descargue y ejecute el programa.
-3. Siga las instrucciones en la consola para seleccionar las monedas y proporcionar los valores para la conversión.
-4. El programa mostrará el valor convertido según su elección.
+1. Ensure you have installed Java JDK version 11 or higher and the Gson library 2.10.1 or higher.
+2. Download and run the program.
+3. Follow the instructions on the console to select currencies and provide values for conversion.
+4. The program will display the converted value according to your choice.
 
-## Pruebas
+## Testing
 
-Se recomienda realizar pruebas exhaustivas para garantizar el correcto funcionamiento del programa, simulando diversas situaciones y recorridos para identificar y corregir posibles errores.
+It is recommended to perform exhaustive tests to ensure the correct operation of the program, simulating various situations and paths to identify and correct possible errors.
 
-## Enlaces útiles
+## Useful Links
 
-- [API de tasas de cambio](https://www.exchangerate-api.com/)
-- [Documentación de la API de tasas de cambio](https://www.exchangerate-api.com/docs/java-currency-api)
-- [Monedas admitidas por la API de tasas de cambio](https://www.exchangerate-api.com/docs/supported-currencies)
+- [Exchange Rate API](https://www.exchangerate-api.com/)
+- [Exchange Rate API Documentation](https://www.exchangerate-api.com/docs/java-currency-api)
+- [Currencies Supported by the Exchange Rate API](https://www.exchangerate-api.com/docs/supported-currencies)
 
-## Contribución
+## Contribution
 
-Las contribuciones son bienvenidas. Por favor, abra un problema o haga un pull request para sugerencias o correcciones.
-
-## Licencia
-
-Este proyecto está licenciado bajo los términos de la licencia MIT. Para más detalles, consulte el archivo LICENSE.
+Contributions are welcome. Please open an issue or make a pull request for suggestions or corrections.
